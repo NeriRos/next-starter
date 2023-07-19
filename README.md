@@ -2,11 +2,8 @@
 
 This is a starter template for [Next.js](https://nextjs.org/).
 
-**This is a unique starter template\
-Its seperated from the framework!**
-
-This means you can copy and past the features and core to any other framework and it will work with little
-customization.
+**This is a unique starter template. It trys to be as much seperated from the framework as possible, but still taking
+advantage of it.**
 
 It includes:
 
@@ -15,7 +12,7 @@ It includes:
 - [ESLint](https://eslint.org/) for linting
 - [NextAuth.js](https://next-auth.js.org/) for authentication
 - [Prisma](https://www.prisma.io/) for database access
-- [PostgreSQL](https://www.postgresql.org/) for the database
+- [Postgresql](https://www.postgresql.org/) for the database
 
 ## Getting Started
 
@@ -33,7 +30,7 @@ You can use Vercel postgresql for development. You can get the connection string
 Simply create a new database on the dashboard and run the following command to get the connection string:
 
 ```bash
-vercel env pull .env.development.local
+vercel env pull .env.local
 ```
 
 ### Run the development server:
