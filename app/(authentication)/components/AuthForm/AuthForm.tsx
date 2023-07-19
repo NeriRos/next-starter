@@ -3,8 +3,8 @@
 import { FormEvent } from "react"
 import Link from "next/link"
 import Button from "@/components/Button/Button"
-import { useAuthForm } from "@/auth/components/AuthForm/useAuthForm"
-import { LOGIN_URL, REGISTER_URL, TEXTS } from "@/auth/components/AuthForm/consts"
+import { useAuthForm } from "@/app/(authentication)/components/AuthForm/useAuthForm"
+import { LOGIN_URL, REGISTER_URL, TEXTS } from "@/app/(authentication)/components/AuthForm/consts"
 
 export const AuthForm = ({ type }: { type: "login" | "register" }) => {
     const { loading, signUp, signIn, errorHandler } = useAuthForm()

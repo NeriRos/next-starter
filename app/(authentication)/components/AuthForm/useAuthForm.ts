@@ -1,9 +1,9 @@
 import { useState } from "react"
 import { useRouter } from "next/navigation"
 import toast from "react-hot-toast"
-import { LoginCredentials, RegisterArgs } from "@/auth/lib/types/AuthenticationTypes"
+import { LoginCredentials, RegisterArgs } from "@/app/(authentication)/lib/types/AuthenticationTypes"
 import { signIn as NextSignIt } from "next-auth/react"
-import { LOGIN_REDIRECT_URL, LOGIN_URL, REGISTER_API_URL, TEXTS } from "@/auth/components/AuthForm/consts"
+import { LOGIN_REDIRECT_URL, LOGIN_URL, REGISTER_API_URL, TEXTS } from "@/app/(authentication)/components/AuthForm/consts"
 
 export const useAuthForm = () => {
     const [loading, setLoading] = useState(false)

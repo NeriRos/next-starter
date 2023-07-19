@@ -1,6 +1,6 @@
 "use client"
 import { signOut } from "next-auth/react"
-import { TEXTS } from "@/auth/components/consts"
+import { TEXTS } from "@/app/(authentication)/components/consts"
 
 export default function SignOut() {
     return (

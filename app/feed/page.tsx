@@ -1,4 +1,4 @@
-import SignOut from "@/auth/components/SignOut"
+import SignOut from "@/app/(authentication)/components/SignOut"
 
 export default function BlogPage() {
     return (

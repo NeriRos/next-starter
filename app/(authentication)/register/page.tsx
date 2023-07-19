@@ -1,5 +1,5 @@
 import Image from "next/image"
-import AuthForm from "@/auth/components/AuthForm/AuthForm"
+import AuthForm from "@/app/(authentication)/components/AuthForm/AuthForm"
 import Link from "next/link"
 
 export default function RegisterPage() {

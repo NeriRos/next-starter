@@ -1,6 +1,6 @@
 "use server"
 import { getServerSession } from "next-auth"
-import { TEXTS } from "@/auth/components/consts"
+import { TEXTS } from "@/app/(authentication)/components/consts"
 
 export default async function AuthStatus() {
     const session = await getServerSession()

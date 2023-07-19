@@ -1,4 +1,4 @@
-import { User } from "@/auth/lib/models/User"
+import { User } from "@/app/(authentication)/lib/models/User"
 
 export type LoginCredentials = {
     email: string;

@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server"
-import { createAuthenticationService } from "@/auth/lib/services/AuthenticationService"
-import { createUsersDbRepository } from "@/auth/lib/repositories/UsersDbRepository"
-import { UserAlreadyExists } from "@/auth/lib/errors/UserAlreadyExists"
-import { RegisterArgs } from "@/auth/lib/types/AuthenticationTypes"
+import { createAuthenticationService } from "@/app/(authentication)/lib/services/AuthenticationService"
+import { createUsersDbRepository } from "@/app/(authentication)/lib/repositories/UsersDbRepository"
+import { UserAlreadyExists } from "@/app/(authentication)/lib/errors/UserAlreadyExists"
+import { RegisterArgs } from "@/app/(authentication)/lib/types/AuthenticationTypes"
 
 const authenticationService = createAuthenticationService({
     dbRepository: createUsersDbRepository(),

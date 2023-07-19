@@ -1,5 +1,5 @@
-import { createAuthenticationService } from "@/auth/lib/services/AuthenticationService"
-import { createUsersDbRepository } from "@/auth/lib/repositories/UsersDbRepository"
+import { createAuthenticationService } from "@/app/(authentication)/lib/services/AuthenticationService"
+import { createUsersDbRepository } from "@/app/(authentication)/lib/repositories/UsersDbRepository"
 import CredentialsProvider from "next-auth/providers/credentials"
 import type { NextAuthOptions } from "next-auth"
 

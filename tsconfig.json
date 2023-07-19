@@ -42,9 +42,6 @@
       ],
       "@/styles/*": [
         "styles/*"
-      ],
-      "@/auth/*": [
-        "app/(authentication)/*"
       ]
     }
   },
